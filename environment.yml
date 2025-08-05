@@ -1,0 +1,47 @@
+name: HyperEst
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - certifi=2023.11.17
+  - cffi=1.16.0
+  - cftime=1.6.2
+  - click-plugins=1.1.1
+  - click=8.1.6
+  - cryptography=38.0.4
+  - h5py=3.10.0
+  - pip=22.3.1
+  - python=3.10.17
+  - pytorch=1.13.1
+  - timm=0.5.4
+  - torchvision=0.14.1
+  - torchaudio=0.13.1
+  - pytorch-cuda=11.8
+  - wandb=0.13.11
+  - pip:
+    - basemap==1.4.1
+    - geopandas==1.0.1
+    - matplotlib==3.8.4
+    - netCDF4==1.6.4
+    - pandas==2.0.3
+    - protobuf==3.20.0
+    - pytz==2023.3
+    - scikit-learn==1.0.2
+    - scipy==1.11.2
+    - seaborn==0.12.2
+    - shapely==2.0.4
+    - six==1.16.0
+    - tensorboard==2.8.0
+    - tensorboard-data-server==0.6.1
+    - tensorboard-plugin-wit==1.8.1
+    - tensorflow==2.8.0
+    - tensorflow-estimator==2.8.0
+    - tensorflow-io-gcs-filesystem==0.36.0
+    - tensorflow-probability==0.16.0
+    - tf-estimator-nightly==2.8.0.dev2021122109
+    - tornado==6.4.2
+    - tqdm==4.67.1
+    - wheel==0.37.1
+    - xgboost==2.0.2
